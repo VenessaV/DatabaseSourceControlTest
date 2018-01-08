@@ -5,9 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DatabaseSourceControlTest
-{
-    class StudentDB
+{   
+    
+    static class StudentDB
     {
-
+        /// <summary>
+        /// Gets all students from the database
+        /// </summary>
+        public static List<string> GetStudents()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
